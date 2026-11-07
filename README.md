@@ -1,8 +1,27 @@
+<div align="center">
+
 # dsh-multi-window
 
-把任意 DSH 会话放进**独立的原生窗口**，同时看多个会话。
+**把任意 DSH 会话放进独立的原生窗口，同时看多个会话。**
 
-> English: [README.en.md](./README.en.md)
+[![npm version](https://img.shields.io/npm/v/dsh-multi-window?style=flat-square)](https://www.npmjs.com/package/dsh-multi-window)
+[![npm downloads](https://img.shields.io/npm/dm/dsh-multi-window?style=flat-square)](https://www.npmjs.com/package/dsh-multi-window)
+[![GitHub stars](https://img.shields.io/github/stars/JohnshyCY/dsh-multi-window?style=flat-square)](https://github.com/JohnshyCY/dsh-multi-window)
+[![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
+
+[English](./README.en.md) · [特性](#特性) · [安装](#安装) · [验证](#验证) · [实现原理](#实现原理) · [故障排查](#故障排查) · [已知限制](#已知限制)
+
+</div>
+
+---
+
+## 快速开始
+
+```powershell
+dsh plugin add dsh-multi-window
+```
+
+重启 DSH 桌面应用后，右键任意会话 → **在独立窗口中打开**。完整说明见[安装](#安装)。
 
 ## 这是什么
 

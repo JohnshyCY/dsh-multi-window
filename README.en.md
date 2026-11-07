@@ -1,9 +1,27 @@
+<div align="center">
+
 # dsh-multi-window
 
-Open any DSH conversation in its own native window, so several conversations
-can be watched at the same time.
+**Open any DSH conversation in its own native window, so several conversations can be watched at the same time.**
 
-> 中文: [README.md](./README.md)
+[![npm version](https://img.shields.io/npm/v/dsh-multi-window?style=flat-square)](https://www.npmjs.com/package/dsh-multi-window)
+[![npm downloads](https://img.shields.io/npm/dm/dsh-multi-window?style=flat-square)](https://www.npmjs.com/package/dsh-multi-window)
+[![GitHub stars](https://img.shields.io/github/stars/JohnshyCY/dsh-multi-window?style=flat-square)](https://github.com/JohnshyCY/dsh-multi-window)
+[![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
+
+[中文](./README.md) · [Features](#features) · [Install](#install) · [Verify](#verify) · [How it works](#how-it-works) · [Troubleshooting](#troubleshooting) · [Known limits](#known-limits)
+
+</div>
+
+---
+
+## Quick start
+
+```powershell
+dsh plugin add dsh-multi-window
+```
+
+Restart the DSH desktop app, then right-click a Session → **Open in new window**. See [Install](#install) for details.
 
 ## What it does
 
