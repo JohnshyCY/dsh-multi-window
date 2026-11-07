@@ -1,0 +1,59 @@
+{
+  "name": "dsh-multi-window",
+  "version": "0.1.0",
+  "description": "Open any DSH conversation in its own native window, so several conversations can be watched at the same time.",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "icon.svg",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/",
+    "scripts/",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "window",
+    "multi-window",
+    "session"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsh-multi-window/dsh-multi-window.git"
+  },
+  "homepage": "https://github.com/dsh-multi-window/dsh-multi-window#readme",
+  "bugs": {
+    "url": "https://github.com/dsh-multi-window/dsh-multi-window/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-workspace",
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  }
+}

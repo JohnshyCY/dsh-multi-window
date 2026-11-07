@@ -1,0 +1,12 @@
+# dsh-multi-window - open one conversation in its own window.
+#
+# Node half: serves GET /api/multi-window.open. It resolves the Host's own
+# authenticated origin and spawns a separate Electron process that shows that URL
+# in a native window. The window runtime is derived from the Host's own Electron
+# payload on first use, so this package ships no binaries.
+# Client half: adds "Open in new window" to the Session context menu, asks the
+# Node half to raise the window, and selects the anchored Session once the new
+# window's own session list is ready. The window shows the full UI unchanged.
+- insert:
+    - id: multi-window
+      name: dsh-multi-window
