@@ -139,7 +139,7 @@ curl.exe "http://127.0.0.1:<port>/api/multi-window.open?session=<sessionId>&titl
 
 ## 发布到 npm
 
-`package.json` 里的 `repository` / `homepage` / `bugs` 是占位地址，发布前请改成你自己的仓库。
+源码仓库：[github.com/JohnshyCY/dsh-multi-window](https://github.com/JohnshyCY/dsh-multi-window)。
 
 ```powershell
 npm publish

@@ -158,8 +158,7 @@ curl.exe "http://127.0.0.1:<port>/api/multi-window.open?session=<sessionId>&titl
 
 ## Publishing
 
-`repository` / `homepage` / `bugs` in `package.json` are placeholders - point them
-at your own repository before publishing.
+Source repository: [github.com/JohnshyCY/dsh-multi-window](https://github.com/JohnshyCY/dsh-multi-window).
 
 ```powershell
 npm publish
